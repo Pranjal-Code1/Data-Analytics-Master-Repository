@@ -52,19 +52,19 @@
 # A number is automorphic if its square ends with the number itself (e.g., 52 = 25, 762 = 5776)
 # Check and print result.
 
-a = int(input("please tell your number: "))
-copy = a
-square = a **2
+# a = int(input("please tell your number: "))
+# copy = a
+# square = a **2
 
-count = 0
+# count = 0
 
-while a > 0:
-    count = count +1
-    a = a //10
+# while a > 0:
+#     count = count +1
+#     a = a //10
 
-extract = square % (10**count)
+# extract = square % (10**count)
 
-if extract == copy:
-    print("Your number is automorphic number")
-else:
-    print("Sorry not an automorphic number")
+# if extract == copy:
+#     print("Your number is automorphic number")
+# else:
+#     print("Sorry not an automorphic number")
