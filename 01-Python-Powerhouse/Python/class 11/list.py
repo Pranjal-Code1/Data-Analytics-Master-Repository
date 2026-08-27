@@ -107,3 +107,75 @@
 #     b = b -1
 
 # print(a)
+
+
+# 8. Linear Search
+# Search for a given element by checking each element one by one.
+
+# a = [23,67,123,1,54,7,98,45,23,13,6,68]
+
+# search = 67
+
+# for i in range(len(a)):
+#     if a[i] == search:
+#         print(f"Element found at index {i}")
+#         break
+# else:
+#     print("Sorry no such element exist")
+
+
+# 9. Binary Search
+# Efficiently search for an element in a sorted list using the divide-and-conquer approach.
+
+# a = [12,14,16,23,25,34,37,45,48,59,68,70]
+
+# search = 13
+
+# start = 0
+# last = len(a)-1
+# mid = (start + last)//2
+
+# while start <= last:
+#     if a[mid] == search:
+#         print(f"element found at index {mid}")
+#         break
+#     elif a[mid] < search:
+#         start = mid + 1
+#         mid = (start + last)//2
+    
+#     elif a[mid] > search:
+#         last= mid -1
+#         mid = (start + last)//2
+# else:
+#     print("sorry no such element exist")
+
+
+# 10. Bubble Sort
+# Sort the list by repeatedly swapping adjacent elements if they are in the wrong order.
+
+
+# a = [56,234,23,24,46,6878,9,674,52,3,12,13,368]
+
+# for j in range(len(a)-1):
+#     for i in range(len(a)-1-j):
+#         if a[i] > a[i+1]:
+#             a[i],a[i+1] = a[i+1],a[i]
+
+# print(a)
+
+# 11. Selection Sort
+# Sort the list bv selectina the smallest element in each pass and placing it in the correct
+# positinn
+
+# a = [56,234,23,24,46,6878,9,674,52,3,12,13,368]
+
+# for i in range(len(a)-1):
+#     j = i+1
+#     min = i
+#     for k in range(j,len(a)):
+#         if a[k] <a[min]:
+#             min = k
+    
+#     a[i],a[min] = a[min],a[i]
+
+# print(a)
