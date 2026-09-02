@@ -77,3 +77,115 @@
 #             names[i] = d[i][1]
 
 #         return names
+
+
+# Ques . Check if Two Strings Have Same Frequency Map
+# Compare character frequencies of two strings and check if they match.
+
+# s1 = "aabbcc"
+# s2 = "baccab"
+
+# if len(s1) == len(s2):
+#     d = {}
+#     for i in s1:
+#         if i in d.keys():
+#             d[i] +=1
+#         else:
+#             d[i] = 1
+#     for i in s2:
+#         if i in d.keys():
+#             d[i] -=1
+#         else:
+#             print("an extra element was found")
+            
+#     for i in d:
+#         if d[i] !=0:
+#             print("sorry your element are not same")
+#             break
+#         else:
+#             print("your string are same")
+
+
+# else:
+#     print("not same")   
+
+#Find Duplicates in Array Using HashSet
+# Detect and print elements that appear more than once in the array.
+# a = [1,1,3,3,5,5,5,6,6,1,2,3,4,5,6,7,8,9,0]
+# d= {}
+
+# for i in a:
+#     if i in d.keys():
+#         d[i] +=1
+#     else:
+#         d[i] = 1
+
+# for i in d:
+#     if d[i] >1:
+#         print(i)
+
+
+# Leetcode 2404 - Most Frequent Even Element
+# Find the even number with the highest frequency; return the smallest one if t
+
+# class Solution:
+#     def mostFrequentEven(self, nums: List[int]) -> int:
+
+#         d= {}
+
+#         for i in nums:
+#             if i%2 ==0:
+#                 if i in d.keys():
+#                     d[i] +=1
+#                 else:
+#                     d[i] = 1
+        
+#         if not d:
+#             return -1
+        
+#         max_f = max(d.values())
+
+#         cand = [num for num, freq in d.items() if freq == max_f]
+
+#         return min(cand)
+
+# Leetcode 2283 - Check if Number Has Equal Digit Count and Digit Value
+# Determine if the count of each digit matches its value in the string.
+
+# class Solution:
+#     def digitCount(self, num: str) -> bool:
+#         d = {}
+
+#         for i in num:
+#             if i in d.keys():
+#                 d[i] +=1
+#             else:
+#                 d[i] = 1
+            
+#         for i in range(len(num)):
+#             if d.get(str(i),0) == int(num[i]):
+#                 continue
+#             else:
+#                 return False
+#         return True
+
+#Ques. Intersection of Two Arrays
+# Return all unique elements that appear in both arrave
+
+# a= [1,2,3,2,3,4,5]
+# b= [2,2,3,3,4,4]
+
+# j = []
+# d= {}
+
+# for i in a:
+#     if i in d.keys():
+#         d[i] +=1
+#     else:
+#         d[i] = 1
+
+# for i in d.keys():
+#     if i in b:
+#         j.append(i)
+
+# print(j)
