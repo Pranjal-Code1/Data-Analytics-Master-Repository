@@ -1,0 +1,56 @@
+{
+    "books": [
+        {
+            "id": "B-C5L2W",
+            "title": "Atomic Habits",
+            "author": "James Clear",
+            "total_copies": 50,
+            "available_copies": 50,
+            "added_on": "2026-09-08 19:27:05"
+        },
+        {
+            "id": "B-OLSEO",
+            "title": "The Psychology Of Money",
+            "author": " Morgan Housel",
+            "total_copies": 60,
+            "available_copies": 60,
+            "added_on": "2026-09-08 22:13:04"
+        },
+        {
+            "id": "B-L5B5S",
+            "title": "Life's Amazing Secrets",
+            "author": "Gaur Gopal Das",
+            "total_copies": 30,
+            "available_copies": 29,
+            "added_on": "2026-09-08 22:16:31"
+        },
+        {
+            "id": "B-DH5M4",
+            "title": "The Alchemist",
+            "author": " Paulo Coelho",
+            "total_copies": 40,
+            "available_copies": 40,
+            "added_on": "2026-09-08 22:21:13"
+        }
+    ],
+    "members": [
+        {
+            "id": "M-FRDJK",
+            "name": "Vansh",
+            "email": "vanshKumar223@gmail.com",
+            "borowed": []
+        },
+        {
+            "id": "M-B7O4X",
+            "name": "Ajay",
+            "email": "ajaysharma211@gmail.com",
+            "borowed": [
+                {
+                    "book_id": "B-L5B5S",
+                    "title": "Life's Amazing Secrets",
+                    "borrow_on": "2026-09-08 22:24:11"
+                }
+            ]
+        }
+    ]
+}
