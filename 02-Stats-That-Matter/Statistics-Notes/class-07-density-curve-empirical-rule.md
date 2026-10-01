@@ -14,7 +14,7 @@
   - Show the true underlying pattern.
   - Make comparison easier.
 
-### How a Density Curve is Created (Conceptually)
+### How a Density Curve is Created (Conceptulated)
 - Start with a histogram.
 - Mark points at the top of each bar.
 - Connect these points to form a frequency polygon.
@@ -35,18 +35,18 @@
 - It tells us how data is distributed around the mean using standard deviation ($\sigma$).
 
 ### The Rule Itself
-- **Mean $\pm$ 1$\sigma$:** $\approx 68\%$ of data.
-- **Mean $\pm$ 2$\sigma$:** $\approx 95\%$ of data.
-- **Mean $\pm$ 3$\sigma$:** $\approx 99.7\%$ of data.
+- **Mean $\pm 1\sigma$:** $\approx 68\%$ of data.
+- **Mean $\pm 2\sigma$:** $\approx 95\%$ of data.
+- **Mean $\pm 3\sigma$:** $\approx 99.7\%$ of data.
 
 ### Understanding the Rule Intuitively
 - **Mean at the Center:** Divides data into 50% left and 50% right.
-- **One Standard Deviation ($\pm$1$\sigma$):** Covers most common values.
-- **Two Standard Deviations ($\pm$2$\sigma$):** Covers data close to the mean and almost all practical data.
-- **Three Standard Deviations ($\pm$3$\sigma$):** Covers almost the entire dataset; values beyond this are very rare and considered outliers.
+- **One Standard Deviation ($\pm 1\sigma$):** Covers most common values.
+- **Two Standard Deviations ($\pm 2\sigma$):** Covers data close to the mean and almost all practical data.
+- **Three Standard Deviations ($\pm 3\sigma$):** Covers almost the entire dataset; values beyond this are very rare and considered outliers.
 
 ### Why Empirical Rule is Important?
-1. **Outlier Detection:** Values beyond $\pm$3$\sigma$ are suspicious.
+1. **Outlier Detection:** Values beyond $\pm 3\sigma$ are suspicious.
 2. **Data Understanding:** Quickly estimates where most data lies.
 3. **Machine Learning:** Many algorithms assume normality; it helps in feature scaling and anomaly detection.
 
