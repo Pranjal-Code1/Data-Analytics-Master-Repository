@@ -1,16 +1,13 @@
-# Arithmetic operators 
-# + , - , * , / , // , ** , %
-
-# print(12 + 56.7)
-
-
 # a = 12 
+# b = 45 
 
-# a += 12
+# print(b < a)
 
-# print(a)
 
-# a = "hello"
-# b = " brother"
+# == , != , > , < , <= , >=
 
-# print("hello " *10)
+
+# print(12 == 56 or 45 ==89 or 34 == 78 or 45 == 45)
+
+
+print(not 12 ==12 == False)
