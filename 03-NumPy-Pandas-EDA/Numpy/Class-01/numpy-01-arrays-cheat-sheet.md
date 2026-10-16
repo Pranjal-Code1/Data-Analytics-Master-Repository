@@ -48,7 +48,7 @@ linear_arr = np.linspace(0, 1, 5)  # 5 numbers between 0 and 1
 ```
 
 ### 4.Random Number Generation (np.random)
-**Uniform Distribution (Values between 0 and 1):**
+Uniform Distribution (Values between 0 and 1):
 
 ```python
 rand_arr = np.random.rand(3, 3)
