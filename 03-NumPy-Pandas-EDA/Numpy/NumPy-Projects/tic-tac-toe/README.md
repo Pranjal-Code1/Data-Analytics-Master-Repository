@@ -14,5 +14,6 @@ An interactive Tic-Tac-Toe web application built using **Python**, **NumPy** for
 ## 🛠️ How to Run Locally
 
 1. Open your terminal and navigate to the project directory:
-   ```bash
-   cd path/to/tic-tac-toe
+```bash
+cd "03-NumPy-Pandas-EDA/Numpy/NumPy-Projects/tic-tac-toe"
+```
