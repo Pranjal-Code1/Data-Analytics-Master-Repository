@@ -29,5 +29,10 @@ Data-Analytics-Master-Repository/
 │   ├── Numpy/
 │   └── Pandas/
 │
+├── 08-Data-Visualization/
+│   ├── Matplotlib/
+│   └── Seaborn/
+│
 └── requirements.txt
+└── README.md
 ```
