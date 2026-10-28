@@ -42,7 +42,8 @@ A Matplotlib figure consists of several key components:
    import matplotlib.pyplot as plt
    ```
 
-Basic Example: Plotting Two Arrays
+   Basic Example: Plotting Two Arrays
+
     ```python
     import matplotlib.pyplot as plt
     x = [1, 2, 3, 4, 5]
@@ -53,5 +54,4 @@ Basic Example: Plotting Two Arrays
     plt.legend()
     plt.grid(True)
     plt.show()
-    ```
 
