@@ -24,3 +24,10 @@ An exploratory data analysis (EDA) and data preprocessing pipeline built using P
 └── 📁 outputs/
     └── 📁 figures/               # Generated charts and visualization artifacts
 ```
+
+## 📁 Dataset Setup
+The raw dataset (`zomato.csv`) is excluded from version control due to file size limits. 
+
+To run the analysis locally:
+1. Download the dataset from [Kaggle Zomato Dataset](https://www.kaggle.com/).
+2. Place `zomato.csv` inside the `data/raw/` directory.
