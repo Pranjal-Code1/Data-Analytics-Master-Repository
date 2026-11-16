@@ -17,22 +17,33 @@ Welcome to my central repository for Data Analytics coursework, hands-on practic
 
 ```text
 Data-Analytics-Master-Repository/
-│
 ├── 01-Python-Powerhouse/
 │   └── Python/
 │       └── Projects/Library management system/
-│
 ├── 02-Stats-That-Matter/
 │   └── Statistics-Notes/
-│
 ├── 03-NumPy-Pandas-EDA/
 │   ├── Numpy/
 │   └── Pandas/
-│
+├── 04-SQL-Intelligence/
+│   ├── 01-Basics/
+│   │   ├── 01_filtering_and_aggregations.sql
+│   ├── 02-Joins-and-Subqueries/
+│   │   └── 02_customer_orders_joins.sql
+│   ├── 03-Advanced-SQL/
+│   │   └── 03_window_functions_and_ctes.sql
+│   ├── 04-Mini-Projects/
+│   │   └── ecommerce_sales_analysis.sql
+│   └── README.md
+├── 05-Excel-Intelligence/
+├── 06-Power-BI-Prodigy/
+├── 07-Machine-Learning/
 ├── 08-Data-Visualization/
 │   ├── Matplotlib/
-│   └── Seaborn/
-│
+│   ├── Seaborn/
+│   └── Projects/
+│       └── 01-zomato-eda-analysis/
+├── .gitignore
+├── README.md
 └── requirements.txt
-└── README.md
-```  
+```
