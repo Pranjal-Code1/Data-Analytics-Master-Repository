@@ -2,6 +2,9 @@
 
 Welcome to my central repository for Data Analytics coursework, hands-on practice code, and mini-projects. This repository documents my structured learning journey from core Python programming to advanced data cleaning, exploratory data analysis (EDA), and interactive web applications.
 
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![SQL](https://img.shields.io/badge/SQL-PostgreSQL%2FMySQL-4479A1?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Status](https://img.shields.io/badge/Repository%20Status-Active-brightgreen)](https://github.com/)
 ---
 
 ## 🛠️ Tech Stack & Tools
