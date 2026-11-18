@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("08-Data-Visualization/Projects/01-zomato-eda-analysis/data/raw/zomato.csv", encoding="latin1")
+df = pd.read_csv("../data/raw/zomato.csv", encoding="latin1")
 
 # --- Figure 1: Missing Values Bar Chart ---
 missing_values = df.isnull().sum()

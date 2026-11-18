@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("08-Data-Visualization/Projects/01-zomato-eda-analysis/data/raw/zomato.csv", encoding="latin1")
+df = pd.read_csv("../data/raw/zomato.csv", encoding="latin1")
 
 # --- Outlier & Extremes Inspection ---
 # Inspecting extreme values using describe percentiles or sorting
