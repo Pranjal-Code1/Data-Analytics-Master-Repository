@@ -27,6 +27,8 @@ Data-Analytics-Master-Repository/
 │   └── Statistics-Notes/
 ├── 03-NumPy-Pandas-EDA/
 │   ├── Numpy/
+│   │   └── NumPy-Projects/
+│   │       └── tic-tac-toe/
 │   └── Pandas/
 ├── 04-SQL-Intelligence/
 │   ├── 01-Basics/
