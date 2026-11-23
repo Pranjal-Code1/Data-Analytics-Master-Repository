@@ -19,3 +19,13 @@ Data cleaning, customer tier segmentation, and summary KPIs for `Customers_Messy
 
 ## Visual Preview
 ![Customers Cleaned Summary](assets/customers_cleaned_summary.png)
+
+## Customer Tier PivotTable & Chart Summary
+Aggregated `Customers_Messy.csv` data by `Customer_Tier` using an Excel PivotTable and a dual-axis PivotChart (keeping raw `.xlsx` files local).
+
+- **High Value (> 100,000):** `2` customers | Total Spend: `270,000` (Average: `135,000.00`, Median: `135,000.00`, Min: `120,000`, Max: `150,000`)
+- **Medium Value (80,000–100,000):** `2` customers | Total Spend: `184,999` (Average: `92,499.50`, Median: `92,499.50`, Min: `85,000`, Max: `99,999`)
+- **Standard (< 80,000):** `1` customer | Total Spend: `72,500` (Average: `72,500.00`, Median: `72,500.00`, Min: `72,500`, Max: `72,500`)
+- **Overall Totals (`n = 5`):** Total Spend: `527,499` | Mean: `105,499.80` | Median: `99,999.00` | Min: `72,500` | Max: `150,000` | Std Dev: `30,536.91`
+
+![PivotTable Tier Summary](assets/pivottable_tier_summary.png)
