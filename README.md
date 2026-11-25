@@ -41,6 +41,13 @@ Data-Analytics-Master-Repository/
 │   │   └── ecommerce_sales_analysis.sql
 │   └── README.md
 ├── 05-Excel-Intelligence/
+│   ├── 01-Data-Cleaning/
+│   │   └── README.md
+│   ├── 02-Analysis-Dashboards/
+│   ├── assets/
+│   │   ├── customers_cleaned_summary.png
+│   │   └── pivottable_tier_summary.png
+│   └── README.md
 ├── 06-Power-BI-Prodigy/
 ├── 07-Machine-Learning/
 ├── 08-Data-Visualization/
