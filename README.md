@@ -32,7 +32,7 @@ Data-Analytics-Master-Repository/
 │   └── Pandas/
 ├── 04-SQL-Intelligence/
 │   ├── 01-Basics/
-│   │   ├── 01_filtering_and_aggregations.sql
+│   │   └── 01_filtering_and_aggregations.sql
 │   ├── 02-Joins-and-Subqueries/
 │   │   └── 02_customer_orders_joins.sql
 │   ├── 03-Advanced-SQL/
@@ -42,7 +42,8 @@ Data-Analytics-Master-Repository/
 │   └── README.md
 ├── 05-Excel-Intelligence/
 │   ├── 01-Data-Cleaning/
-│   │   └── README.md
+│   │   ├── README.md
+│   │   └── data_model_and_prep_notes.md  
 │   ├── 02-Analysis-Dashboards/
 │   │   └── README.md
 │   ├── assets/
